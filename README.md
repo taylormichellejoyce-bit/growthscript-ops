@@ -115,6 +115,10 @@ Replace `/path/to/pmm-partner` with the actual path to the folder.
 Once installed, you can use:
 
 - `/pmm-partner:setup` - Guided wizard to connect Claude Code to your tools
+- `/pmm-partner:core-products` - Create your Core Products documentation
+- `/pmm-partner:releases` - Track upcoming releases and GTM readiness
+- `/pmm-partner:icp` - Build ICP and persona documentation
+- `/pmm-partner:competitive` - Track competitors and build battlecards
 
 ---
 
