@@ -213,6 +213,16 @@ If you've heard feedback from deals - won or lost - what themes come up when thi
 
 ## Path 3: Build a Battlecard
 
+**Before generating battlecard content, check memory for `brand-voice-guidelines`.** If found, apply their voice and terminology to talking points, objection responses, and messaging. If not found, mention:
+
+---
+
+**Quick note:** You haven't set up brand guidelines yet. I can still build the battlecard, but the talking points will be generic. Run `/pmm-partner:brand` first if you want content that matches your company's voice.
+
+Want me to continue anyway, or set up brand first?
+
+---
+
 For sales-ready competitive guides:
 
 ---

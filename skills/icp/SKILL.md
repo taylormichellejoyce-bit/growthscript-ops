@@ -264,6 +264,16 @@ Route to the appropriate section above, or to messaging below.
 
 ## Path 4: Generate Messaging
 
+**Before generating messaging, check memory for `brand-voice-guidelines`.** If found, apply their voice, pillars, and terminology to all generated copy. If not found, mention:
+
+---
+
+**Quick note:** You haven't set up brand guidelines yet. I can still generate messaging, but it'll be generic. Run `/pmm-partner:brand` first if you want content that matches your company's voice.
+
+Want me to continue anyway, or set up brand first?
+
+---
+
 Help them create messaging for a segment:
 
 ---

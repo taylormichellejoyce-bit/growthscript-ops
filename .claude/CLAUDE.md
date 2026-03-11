@@ -70,6 +70,7 @@ Say something like: "It sounds like you might want to connect your tools first. 
 
 **Available skills:**
 - `/pmm-partner:setup` - Guided wizard for connecting tools
+- `/pmm-partner:brand` - Set up brand voice and messaging guidelines
 - `/pmm-partner:core-products` - Create your Core Products documentation
 - `/pmm-partner:releases` - Track upcoming releases and GTM readiness
 - `/pmm-partner:icp` - Build ICP and persona documentation
@@ -95,6 +96,17 @@ This way, the next time they use a skill, you already know their setup and prefe
 
 **Ask, don't assume:**
 If you're unsure whether to use the default structure or their custom one, ask: "Do you want to use the standard setup, or do you have an existing structure I should work with?"
+
+## Brand Voice in Content
+
+**When generating messaging, check for brand guidelines first.**
+
+Before creating content (ICP messaging, battlecards, release summaries, etc.):
+1. Check memory for `brand-voice-guidelines`
+2. If found, apply their voice, pillars, and terminology
+3. If not found, mention they can set this up with `/pmm-partner:brand`
+
+Brand-aware content sounds like *their* company, not generic marketing.
 
 ## Use Existing Content
 

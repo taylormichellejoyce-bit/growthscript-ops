@@ -174,11 +174,13 @@ Once tools are connected (or if they're using a non-connectable tool):
 
 **You're all set! Here's what you can do now:**
 
-1. **Build your Core Products documentation** - Type `/pmm-partner:core-products` to create the foundation
+1. **Set up your brand voice** - Type `/pmm-partner:brand` if you have voice/messaging guidelines (so content I create sounds like your company)
 
-2. **Set up release tracking** - Type `/pmm-partner:releases` when you're ready (coming soon)
+2. **Build your Core Products documentation** - Type `/pmm-partner:core-products` to create the foundation
 
-3. **Just ask** - You can always just describe what you need and I'll help figure out the best approach
+3. **Set up release tracking** - Type `/pmm-partner:releases` to track what's shipping
+
+4. **Just ask** - You can always just describe what you need and I'll help figure out the best approach
 
 What sounds most useful right now?
 

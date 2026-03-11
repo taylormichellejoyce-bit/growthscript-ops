@@ -125,6 +125,8 @@ Which feels right, or would you tweak one of these?
 
 ### Summary Help
 
+**Check memory for `brand-voice-guidelines`** and apply voice/terminology if available.
+
 ---
 
 **Now let's write a quick summary. This is what Sales/Support will see - keep it to 1-2 sentences.**
