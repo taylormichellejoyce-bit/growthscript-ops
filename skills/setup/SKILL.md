@@ -1,6 +1,6 @@
 ---
 name: setup
-description: Guided setup wizard for connecting Claude Code to your tools (Notion, Linear, etc.)
+description: Guided setup wizard for connecting Claude Code to your tools. Works with Notion, Linear, Confluence, Google Docs, and more - or helps you work without direct connection.
 ---
 
 # Setup Wizard
@@ -17,7 +17,7 @@ Begin by asking:
 
 ---
 
-**Welcome! I'll help you connect Claude Code to your tools so we can work together inside Notion, Linear, or wherever you do your GTM work.**
+**Welcome! I'll help you get Claude Code connected to your tools so we can work together on your GTM documentation.**
 
 First, let me understand your setup:
 
@@ -25,26 +25,60 @@ First, let me understand your setup:
    - Notion
    - Confluence
    - Google Docs
+   - Coda
+   - SharePoint
    - Something else
 
-2. **Do you use a project management tool for tracking releases?**
+2. **Do you use a project management tool for tracking work/releases?**
    - Linear
    - Jira
    - Asana
-   - We use Notion for this too
+   - Monday
+   - We use our doc tool for this too
    - Something else
 
-Just tell me what you use and we'll get connected.
+Just tell me what you use and we'll figure out the best way to work together.
 
 ---
+
+## Determine Connection Approach
+
+Based on their answers, follow one of these paths:
+
+### Tools Claude Can Connect To:
+- **Notion** - Full integration via MCP
+- **Linear** - Full integration via MCP
+- **Google Drive** - May have MCP available
+- **Jira** - May have MCP available
+
+### Tools Claude Cannot Directly Connect To:
+- Confluence (usually)
+- SharePoint
+- Coda
+- Most others
+
+**If their tool isn't connectable, that's okay!** Tell them:
+
+---
+
+**I can't connect directly to [their tool], but that doesn't stop us from working together.**
+
+Here's how this will work:
+- I'll help you design the structure and content for your documentation
+- You'll create/update things in [their tool] as we go
+- I can still help you draft content, think through frameworks, and stay organized
+
+The GrowthScript framework works regardless of where you store it. Ready to get started?
+
+---
+
+Then skip to "After Setup" section.
 
 ## Notion Setup Path
 
 If they use Notion:
 
 ### Step 1: Check for Existing Connection
-
-Ask Claude to check if Notion MCP is already configured:
 
 "Let me check if Notion is already connected..."
 
@@ -134,17 +168,17 @@ Guide through setup similar to Notion.
 
 ## After Setup
 
-Once tools are connected:
+Once tools are connected (or if they're using a non-connectable tool):
 
 ---
 
-**You're all set up! Here's what you can do now:**
+**You're all set! Here's what you can do now:**
 
-1. **Start your GrowthScript framework** - I can help you build out Product Language, ICP, and Messaging in Notion
+1. **Build your Core Products documentation** - Type `/growthscript-ops:core-products` to create the foundation
 
-2. **Set up release tracking** - Create an Upcoming Releases database and I'll help keep it current
+2. **Set up release tracking** - Type `/growthscript-ops:releases` when you're ready (coming soon)
 
-3. **Explore together** - Ask me to find something in your Notion or Linear and see how it works
+3. **Just ask** - You can always just describe what you need and I'll help figure out the best approach
 
 What sounds most useful right now?
 
@@ -158,7 +192,7 @@ Check if a browser window opened in the background. Sometimes it opens behind ot
 
 ### "It says I don't have permission"
 
-You might need workspace admin access. Check with whoever manages your Notion/Linear settings.
+You might need workspace admin access. Check with whoever manages your tool's settings.
 
 ### "The connection test failed"
 
@@ -169,20 +203,24 @@ Let's try again. Sometimes the first attempt doesn't work. If it keeps failing, 
 Totally fair question. Here's what happens when you authorize:
 - Claude Code gets *read* access to your workspace by default
 - You control what Claude can see and do
-- You can revoke access anytime from your Notion/Linear settings
+- You can revoke access anytime from your tool's settings
 - Your data stays in your tools - Claude doesn't store copies
+
+### "My tool isn't on your list"
+
+No problem! We can still work together - I just won't be able to read/write directly. I'll help you design the structure and draft content, and you'll paste it into your tool.
 
 ## Ending the Setup
 
-Always end with a clear next step and reminder that they can come back:
+Always end with a clear next step:
 
 ---
 
-**That's setup complete! A few things to remember:**
+**A few things to remember:**
 
-- Type `/growthscript-ops:setup` anytime to add more tools
-- Ask me questions naturally - I can search your connected tools
-- Start small - try one simple task and build from there
+- Type `/growthscript-ops:setup` anytime to connect more tools
+- Type `/growthscript-ops:core-products` to start building your product documentation
+- Just ask me questions naturally - I'm here to help
 
 What would you like to work on first?
 

@@ -1,11 +1,11 @@
 ---
 name: core-products
-description: Create a Core Products database in Notion and add your first product. The foundation for all GTM documentation.
+description: Create a Core Products database and add your first product. The foundation for all GTM documentation. Works with Notion, Confluence, Google Docs, or any documentation tool.
 ---
 
 # Core Products
 
-You are helping a PMM create their Core Products database in Notion. This is the foundation of their GrowthScript framework - everything else (messaging, releases, competitive intel) references what they actually sell.
+You are helping a PMM create their Core Products documentation. This is the foundation of their GrowthScript framework - everything else (messaging, releases, competitive intel) references what they actually sell.
 
 ## Philosophy
 
@@ -19,21 +19,15 @@ This isn't marketing copy. It's the source of truth that Sales, Marketing, Suppo
 
 Organize by **capability** (what it helps customers do), not by product name or feature list.
 
-## Before You Start
-
-Check if Notion is connected. Look for `mcp__plugin_Notion_notion__` tools. If not connected, tell the user:
-
-"Before we can create your Core Products database, we need to connect Notion. Type `/growthscript-ops:setup` to get that set up, then come back here."
-
-## Step 1: Understand Their Business
+## Step 1: Understand Their Setup
 
 Start with:
 
 ---
 
-**Let's build your Core Products database - the source of truth for what you sell.**
+**Let's build your Core Products documentation - the source of truth for what you sell.**
 
-Before I create anything, I need to understand your business:
+First, a few questions:
 
 1. **What's your company name?**
 
@@ -41,13 +35,31 @@ Before I create anything, I need to understand your business:
 
 3. **Who are your main customer types?** (e.g., "small businesses", "enterprise sales teams", "real estate agents")
 
+4. **Where do you keep your team's documentation?** (Notion, Confluence, Google Docs, something else?)
+
 ---
 
 Wait for their answers before continuing.
 
-## Step 2: Identify Capabilities
+## Step 2: Determine the Approach
 
-Based on their answers, help them think about capabilities:
+Based on their documentation tool:
+
+**If Notion:** Check if connected (look for `mcp__plugin_Notion_notion__` tools). If connected, you can create the database directly. If not, suggest `/growthscript-ops:setup` first.
+
+**If Confluence, Google Docs, or other connected tool:** Check for relevant MCP tools and use them if available.
+
+**If not connectable:** That's fine! Tell them:
+
+---
+
+**I can't connect directly to [their tool], but I can still help. I'll walk you through the structure and you can create it in [their tool] as we go.**
+
+---
+
+## Step 3: Identify Capabilities
+
+Based on their business answers, help them think about capabilities:
 
 ---
 
@@ -65,39 +77,49 @@ Don't think about features or product names. Think about outcomes. For example:
 
 ---
 
-## Step 3: Create the Database
+## Step 4: Create the Structure
 
-Once they've confirmed capabilities, create the database:
+### If you CAN connect to their tool:
 
-Use the Notion MCP tools to create a database with:
+Create a database/table with:
 
-**Database name:** `[Company] Core Products`
+**Name:** `[Company] Core Products`
 
-**Properties:**
-- `Product Name` (title)
-- `Capability` (multi-select with their confirmed categories)
+**Properties/Columns:**
+- `Product Name` (title/name)
+- `Capability` (multi-select/tags with their confirmed categories)
 - `Description` (text) - "What this product/feature does in plain language"
 - `Documentation` (URL) - "Link to detailed docs if they exist"
 - `Point of Contact` (person) - "Who owns this product area"
-- `Last Updated` (last_edited_time)
+- `Last Updated` (date)
 
-**Views:**
-- "By Capability" - Table grouped by Capability
-- "All Products" - Simple list
+After creating, share the link and continue to Step 5.
 
-After creating, tell them:
+### If you CANNOT connect to their tool:
 
----
-
-**Done! I created your Core Products database.**
-
-You can find it here: [link to database]
-
-Now let's add your first product so you can see how it works.
+Walk them through creating it manually:
 
 ---
 
-## Step 4: Add First Product
+**Here's the structure to create in [their tool]:**
+
+**Create a new database/table called:** `[Company] Core Products`
+
+**Add these columns:**
+1. **Product Name** - The name of the product or feature
+2. **Capability** - Category tag (use: [list their capabilities])
+3. **Description** - What it does in plain language
+4. **Documentation** - Link to detailed docs
+5. **Point of Contact** - Who owns this
+6. **Last Updated** - When this was last reviewed
+
+**Set up a view grouped by Capability** so you can see all products organized by what they help customers do.
+
+Let me know when you've created the structure and I'll help you add your first product.
+
+---
+
+## Step 5: Add First Product
 
 Walk them through adding their first product:
 
@@ -129,9 +151,9 @@ Keep it to 2-3 sentences. No marketing speak, just what it actually does.
 
 ---
 
-Create the entry in Notion with their answers.
+If connected, create the entry. If not, tell them exactly what to enter.
 
-## Step 5: Wrap Up
+## Step 6: Wrap Up
 
 ---
 
@@ -141,10 +163,10 @@ Create the entry in Notion with their answers.
 
 **What to do next:**
 1. Add more products - aim for 5-10 core products/features to start
-2. Share the database with your team
+2. Share with your team
 3. Link it from your team's home page so people can find it
 
-**Pro tip:** When releases ship that change how products work, update this database. It's the source of truth.
+**Pro tip:** When releases ship that change how products work, update this documentation. It's the source of truth.
 
 Type `/growthscript-ops:releases` when you're ready to start tracking what's shipping next.
 
@@ -161,10 +183,5 @@ Start with the top 5-10. You can always add more. Better to have a useful subset
 **"This feels like a lot of work"**
 Acknowledge it: "Yeah, this is foundational work. But once it's done, everything else gets easier. And I'll help you through it."
 
-## Technical Notes
-
-When creating the database in Notion:
-1. Create it at the workspace root or in a teamspace they specify
-2. Use the multi-select property type for Capability
-3. Set up the "By Capability" view with grouping
-4. Add a template for new product entries if possible
+**"I can't use [specific tool feature]"**
+Be flexible. A simple list or document works too. The structure matters more than the tool.
