@@ -72,6 +72,7 @@ Say something like: "It sounds like you might want to connect your tools first. 
 - `/growthscript-ops:setup` - Guided wizard for connecting tools
 - `/growthscript-ops:core-products` - Create your Core Products documentation
 - `/growthscript-ops:releases` - Track upcoming releases and GTM readiness
+- `/growthscript-ops:icp` - Build ICP and persona documentation
 
 ## Individual Customization
 
@@ -93,3 +94,31 @@ This way, the next time they use a skill, you already know their setup and prefe
 
 **Ask, don't assume:**
 If you're unsure whether to use the default structure or their custom one, ask: "Do you want to use the standard setup, or do you have an existing structure I should work with?"
+
+## Use Existing Content
+
+**Don't make them start from scratch.** PMMs often have existing documentation scattered around:
+- Old Google Docs or Word files
+- Slide decks with positioning
+- Previous ICP research
+- Competitor analyses
+- Product briefs
+- Sales enablement materials
+
+**Before asking lots of questions, ask:**
+"Do you have any existing docs about this? You can share a file path, paste content, or point me to a Google Doc/URL. I can pull from what you already have instead of starting fresh."
+
+**How they can share content:**
+- Drop a file into the terminal (drag and drop works)
+- Paste content directly
+- Share a file path (e.g., `~/Desktop/icp-notes.docx`)
+- Share a URL if it's accessible
+- Point to a Notion page if connected
+
+**When they share existing content:**
+1. Read/analyze what they gave you
+2. Extract the relevant information
+3. Ask clarifying questions only for gaps
+4. Structure it into the GrowthScript format
+
+This is often much faster than starting from zero. The information exists - it just needs to be organized.
