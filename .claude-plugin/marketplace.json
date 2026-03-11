@@ -1,0 +1,13 @@
+{
+  "name": "growthscript-ops",
+  "owner": {
+    "name": "Taylor Berry"
+  },
+  "plugins": [
+    {
+      "name": "growthscript-ops",
+      "source": "./",
+      "description": "Operationalize GrowthScript with Claude Code - a getting-started toolkit for PMMs"
+    }
+  ]
+}

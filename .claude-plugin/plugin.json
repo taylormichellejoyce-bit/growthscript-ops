@@ -1,0 +1,12 @@
+{
+  "name": "growthscript-ops",
+  "version": "0.1.0",
+  "description": "Operationalize GrowthScript with Claude Code - a getting-started toolkit for PMMs",
+  "author": {
+    "name": "Taylor Berry"
+  },
+  "skills": [
+    "./skills/setup"
+  ],
+  "agents": []
+}
