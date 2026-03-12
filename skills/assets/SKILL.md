@@ -211,52 +211,7 @@ I can create a complete HTML presentation file you can deploy instantly. Tell me
 
 ---
 
-## Code-Based Presentations
-
-**This workflow is for PMMs who don't have design teams** or want to create polished presentations quickly without design tools.
-
-### How It Works
-
-1. **Plan the slides** - We outline the structure and content together
-2. **Pull from your sources** - I use your existing content (Notion docs, product info, brand guidelines)
-3. **Refine together** - We iterate on messaging and flow
-4. **Apply your brand** - Colors, fonts, styling from your existing materials
-5. **Generate the code** - I create HTML files using reveal.js or similar
-6. **Deploy instantly** - Push to Replit, Vercel, Netlify, or GitHub Pages
-
-### To Create a Code-Based Deck
-
----
-
-**Want me to build this as a deployable presentation?**
-
-I'll need:
-1. **Your brand colors** (hex codes if you have them, or point me to an existing deck)
-2. **Company logo** (optional - URL or file)
-3. **Where you'll deploy it** (Replit is easiest, but Vercel/Netlify work too)
-
-I'll generate a complete HTML file you can deploy in minutes.
-
----
-
-### What You Get
-
-- **Single HTML file** - Everything included, no dependencies to manage
-- **Professional styling** - Clean, modern design with your brand colors
-- **Mobile-friendly** - Works on any device
-- **Shareable URL** - Send a link instead of attaching files
-- **Easy to update** - Change content anytime, redeploy in seconds
-
-### Deployment Options
-
-| Platform | Difficulty | Best For |
-|----------|------------|----------|
-| **Replit** | Easiest | Quick deploys, no account setup hassle |
-| **GitHub Pages** | Easy | If you already use GitHub |
-| **Vercel** | Easy | Fast, professional URLs |
-| **Netlify** | Easy | Drag-and-drop deploy |
-
-### Example Workflow
+### Example: Presentation Workflow
 
 "I need a presentation for our new feature launch."
 
@@ -540,6 +495,73 @@ Generate:
 [CTA - what to do next]
 
 [Sign-off]
+
+---
+
+## Code-Based Assets (No Design Team Needed)
+
+**This workflow is for PMMs who don't have design resources** or want to create polished assets quickly without waiting on creative teams.
+
+### What You Can Build
+
+| Asset | What I Generate | Deploy/Export |
+|-------|-----------------|---------------|
+| **Presentations** | HTML (reveal.js) | Replit, Vercel, Netlify |
+| **One-pagers** | HTML or Markdown → PDF | Browser print, or deploy as web page |
+| **Landing pages** | HTML + CSS | Replit, Vercel, Netlify |
+| **Email templates** | HTML email | Copy into your ESP (Mailchimp, HubSpot, etc.) |
+| **Sales sheets** | HTML → PDF | Browser print to PDF |
+| **Microsites** | Multi-page HTML | Any static hosting |
+
+### The Workflow
+
+1. **Plan the content** - We outline structure and messaging together
+2. **Pull from your sources** - I use your existing content (Notion, docs, product info)
+3. **Refine together** - We iterate until it's right
+4. **Apply your brand** - Colors, fonts, styling from existing materials
+5. **Generate the code** - I create clean HTML/CSS files
+6. **Deploy or export** - Push live or save as PDF
+
+### To Build Any Code-Based Asset
+
+---
+
+**Want me to build this as a deployable/exportable asset?**
+
+I'll need:
+1. **Your brand colors** (hex codes, or point me to an existing asset)
+2. **Logo** (optional - URL or file path)
+3. **How you want it** (web page, PDF, email template)
+
+I'll generate files you can deploy in minutes or export as PDF.
+
+---
+
+### Why This Works
+
+- **No design backlog** - Don't wait weeks for creative
+- **Instant iterations** - Change copy, regenerate, done
+- **Brand consistent** - Same colors/fonts every time
+- **Shareable URLs** - Send links instead of attachments
+- **Version control** - Update and redeploy anytime
+
+### Deployment Options
+
+| Platform | Best For | Difficulty |
+|----------|----------|------------|
+| **Replit** | Quick deploys, beginners | Easiest |
+| **Vercel** | Professional URLs, fast | Easy |
+| **Netlify** | Drag-and-drop | Easy |
+| **GitHub Pages** | If you use GitHub | Easy |
+
+### PDF Export
+
+For one-pagers and sales sheets, you can:
+1. Deploy the HTML page
+2. Open in browser
+3. Print → Save as PDF
+
+Or I can generate markdown that converts cleanly to PDF via other tools.
 
 ---
 
