@@ -112,16 +112,45 @@ Replace `/path/to/pmm-partner` with the actual path to the folder.
 
 ## Skills
 
-Once installed, you can use:
+### Getting Started
 
-- `/pmm-partner:setup` - Guided wizard to connect Claude Code to your tools
-- `/pmm-partner:brand` - Set up brand voice and messaging guidelines
-- `/pmm-partner:plan` - GTM thought partner for strategy and planning
-- `/pmm-partner:core-products` - Create your Core Products documentation
-- `/pmm-partner:releases` - Track upcoming releases and GTM readiness
-- `/pmm-partner:icp` - Build ICP and persona documentation
-- `/pmm-partner:competitive` - Track competitors and build battlecards
-- `/pmm-partner:assets` - Create one-pagers, slide decks, talk tracks, and email content
+| Skill | What It Does |
+|-------|--------------|
+| `/pmm-partner:setup` | **Connect your tools.** Guided wizard to connect Claude Code to Notion, Linear, and other tools you use. Start here. |
+| `/pmm-partner:brand` | **Set up your brand.** Define your voice, messaging pillars, colors, fonts, and terminology so everything Claude creates sounds and looks like your company. |
+
+### Strategy & Planning
+
+| Skill | What It Does |
+|-------|--------------|
+| `/pmm-partner:plan` | **Your GTM thought partner.** Think through releases, plan initiatives, connect dots across products, identify what documentation needs updating. Use this before jumping into asset creation. |
+
+### Documentation
+
+| Skill | What It Does |
+|-------|--------------|
+| `/pmm-partner:core-products` | **Document your products.** Create and maintain your Core Products database - the source of truth for what you sell, organized by capability. |
+| `/pmm-partner:releases` | **Track what's shipping.** Log upcoming releases, track GTM readiness, generate enablement checklists, translate internal names to customer-facing messaging. |
+| `/pmm-partner:icp` | **Build ICPs and personas.** Document your ideal customers - who they are, what they care about, how they buy. Go as deep as you need (quick profiles to full JTBD). |
+| `/pmm-partner:competitive` | **Track competitors.** Document competitor positioning, build sales battlecards, analyze win/loss patterns, keep differentiation messaging current. |
+
+### Asset Creation
+
+| Skill | What It Does |
+|-------|--------------|
+| `/pmm-partner:assets` | **Create GTM deliverables.** Build one-pagers, slide decks, talk tracks, email campaigns. Pulls from your brand, products, and ICPs so assets come out aligned. Can generate HTML you deploy instantly or work with your existing templates. |
+
+### Recommended Flow
+
+```
+setup → brand → plan → [documentation skills] → assets
+```
+
+1. **Setup** - Connect your tools
+2. **Brand** - Define your voice and style
+3. **Plan** - Think through what you're doing and why
+4. **Document** - Build your foundation (products, releases, ICPs, competitive)
+5. **Assets** - Create deliverables from your foundation
 
 ---
 
