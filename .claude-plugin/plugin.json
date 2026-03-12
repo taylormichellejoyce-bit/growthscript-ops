@@ -8,6 +8,7 @@
   "skills": [
     "./skills/setup",
     "./skills/brand",
+    "./skills/plan",
     "./skills/core-products",
     "./skills/releases",
     "./skills/icp",

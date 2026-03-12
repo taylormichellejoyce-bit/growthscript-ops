@@ -116,6 +116,7 @@ Once installed, you can use:
 
 - `/pmm-partner:setup` - Guided wizard to connect Claude Code to your tools
 - `/pmm-partner:brand` - Set up brand voice and messaging guidelines
+- `/pmm-partner:plan` - GTM thought partner for strategy and planning
 - `/pmm-partner:core-products` - Create your Core Products documentation
 - `/pmm-partner:releases` - Track upcoming releases and GTM readiness
 - `/pmm-partner:icp` - Build ICP and persona documentation
