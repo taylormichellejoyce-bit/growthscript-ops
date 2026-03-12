@@ -194,18 +194,80 @@ For each slide, provide:
 
 ---
 
-### Output Format Note
+### Output Format Options
 
 ---
 
-**I've generated the content for each slide. To turn this into an actual deck:**
+**I've generated the content for each slide. How do you want to build it?**
 
+**Option A: Traditional tools**
 - **Google Slides / PowerPoint:** Copy each slide's content into your template
 - **Canva:** Use their presentation templates and paste content
 - **Gamma.app:** Paste this outline and let it generate designs
 - **Pitch:** Works great for polished startup decks
 
-Want me to adjust any slides before you build it out?
+**Option B: Code-based presentation (no design team needed)**
+I can create a complete HTML presentation file you can deploy instantly. Tell me and I'll build it.
+
+---
+
+## Code-Based Presentations
+
+**This workflow is for PMMs who don't have design teams** or want to create polished presentations quickly without design tools.
+
+### How It Works
+
+1. **Plan the slides** - We outline the structure and content together
+2. **Pull from your sources** - I use your existing content (Notion docs, product info, brand guidelines)
+3. **Refine together** - We iterate on messaging and flow
+4. **Apply your brand** - Colors, fonts, styling from your existing materials
+5. **Generate the code** - I create HTML files using reveal.js or similar
+6. **Deploy instantly** - Push to Replit, Vercel, Netlify, or GitHub Pages
+
+### To Create a Code-Based Deck
+
+---
+
+**Want me to build this as a deployable presentation?**
+
+I'll need:
+1. **Your brand colors** (hex codes if you have them, or point me to an existing deck)
+2. **Company logo** (optional - URL or file)
+3. **Where you'll deploy it** (Replit is easiest, but Vercel/Netlify work too)
+
+I'll generate a complete HTML file you can deploy in minutes.
+
+---
+
+### What You Get
+
+- **Single HTML file** - Everything included, no dependencies to manage
+- **Professional styling** - Clean, modern design with your brand colors
+- **Mobile-friendly** - Works on any device
+- **Shareable URL** - Send a link instead of attaching files
+- **Easy to update** - Change content anytime, redeploy in seconds
+
+### Deployment Options
+
+| Platform | Difficulty | Best For |
+|----------|------------|----------|
+| **Replit** | Easiest | Quick deploys, no account setup hassle |
+| **GitHub Pages** | Easy | If you already use GitHub |
+| **Vercel** | Easy | Fast, professional URLs |
+| **Netlify** | Easy | Drag-and-drop deploy |
+
+### Example Workflow
+
+"I need a presentation for our new feature launch."
+
+1. You share the feature docs or Notion page
+2. I outline 8-10 slides based on your content
+3. You refine the messaging
+4. I pull your brand colors from an existing deck
+5. I generate a reveal.js HTML file
+6. You deploy to Replit and share the link
+
+**Total time: 30-60 minutes for a polished, on-brand presentation.**
 
 ---
 
