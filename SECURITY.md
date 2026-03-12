@@ -13,29 +13,50 @@ Before using PMM Partner (or any AI tool with access to your systems), understan
 
 ---
 
-## What NOT to Put in AI Conversations
+## Working with Sensitive Data
 
-Avoid sharing:
-- Customer PII (names, emails, addresses, financial data)
-- Internal financial or sensitive business data
-- Proprietary algorithms or trade secrets
-- Production database credentials
-- Anything you wouldn't post in a public Slack channel
+One of the biggest advantages of Claude Code is that it can work with your real data - customer info, CRM records, internal docs - through **approved integrations** like HubSpot, Salesforce, or Notion MCP connections.
 
-**When in doubt, leave it out.**
+### This is OK:
+- Accessing customer data through **sanctioned MCP integrations** (these use your existing permissions and audit trails)
+- Querying your CRM through an approved connection
+- Working with data inside systems your IT/Security team has vetted
+
+### This is NOT OK:
+- Copy-pasting raw customer data into unvetted AI tools
+- Uploading CSVs of sensitive data to random websites
+- Bypassing your company's access controls
+- Sharing credentials so others can access data they shouldn't
+
+### The Key Difference:
+**Approved integrations** = data stays within controlled systems with audit trails
+**Copy-paste into chat** = data leaves your controlled environment
+
+### Still Avoid in Any AI Prompt:
+- Production database credentials or API secrets
+- Passwords or authentication tokens
+- Anything that would let someone impersonate you or access systems
+
+**Follow your company's data handling policies.** If your organization has approved certain integrations, use those. If you're unsure what's approved, ask IT or Security.
 
 ---
 
-## MCP Connections = Real Access
+## MCP Connections = Real Access (That's the Point)
 
-When you connect Claude Code to tools like Notion, Linear, or others:
+When you connect Claude Code to tools like Notion, Linear, HubSpot, or Salesforce:
 
-- It has **real read/write access** to your data
+- It has **real access** to your data - that's what makes it powerful
+- It uses **your existing permissions** - you can only access what you could access anyway
+- Actions are auditable in the connected systems
 - It can create, edit, and delete things on your behalf
-- Always review what it's about to do before confirming
-- Start with read-only access if you're learning
 
-**Think of it like giving someone your login** - be intentional about what you connect.
+### Best Practices:
+- **Understand what you're connecting** - know what data the integration can access
+- **Review before confirming** - especially for edits or deletions
+- **Use integrations IT/Security has approved** - these have been vetted
+- **Start with read-heavy workflows** if you're learning
+
+**The value is working through your systems, not around them.**
 
 ---
 
